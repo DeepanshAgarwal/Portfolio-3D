@@ -54,13 +54,12 @@ const ShowcaseSection = () => {
                             <img src="/images/project1.png" alt="Project-1" />
                         </div>
                         <div className="text-content">
-                            <h2>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Minima, nisi.
-                            </h2>
+                            <h2>E-Commerce Website</h2>
                             <p className="text-white-50 md:text-xl">
-                                Lorem ipsum, dolor sit amet consectetur
-                                adipisicing elit. Itaque, architecto?
+                                A full-stack application built using the MERN
+                                stack. Features include responsive design,
+                                smooth navigation, robust authentication, and an
+                                admin panel for managing products and orders.
                             </p>
                         </div>
                     </div>
@@ -73,7 +72,7 @@ const ShowcaseSection = () => {
                                     alt="Project-2"
                                 />
                             </div>
-                            <h2>Project 2 Title</h2>
+                            <h2>Text to Image Generator AI</h2>
                         </div>
 
                         <div className="project" ref={project3Ref}>
@@ -83,7 +82,7 @@ const ShowcaseSection = () => {
                                     alt="Project-3"
                                 />
                             </div>
-                            <h2>Project 3 Title</h2>
+                            <h2>Online Web Dev Compiler</h2>
                         </div>
                     </div>
                 </div>

@@ -29,10 +29,10 @@ const words = [
 ];
 
 const counterItems = [
-    { value: 15, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
-    { value: 108, suffix: "+", label: "Completed Projects" },
-    { value: 90, suffix: "%", label: "Client Retention Rate" },
+    { value: 3, suffix: "+", label: "Years of Coding & Learning" },
+    { value: 12, suffix: "+", label: "Projects Built" },
+    { value: 120, suffix: "+", label: "LeetCode Problems Solved" },
+    { value: 10, suffix: "+", label: "Technologies Used Across Projects" },
 ];
 
 const logoIconsList = [
@@ -74,18 +74,18 @@ const logoIconsList = [
 const abilities = [
     {
         imgPath: "/images/seo.png",
-        title: "Quality Focus",
-        desc: "Delivering high-quality results while maintaining attention to every detail.",
+        title: "Clean & Scalable Code",
+        desc: "Building applications with clean architecture and reusable components that scale smoothly.",
     },
     {
         imgPath: "/images/chat.png",
-        title: "Reliable Communication",
-        desc: "Keeping you updated at every step to ensure transparency and clarity.",
+        title: "Problem-Solving Mindset",
+        desc: "Approaching challenges with a logical, structured mindset—especially through DSA and real-world projects.",
     },
     {
         imgPath: "/images/time.png",
-        title: "On-Time Delivery",
-        desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+        title: "Consistent & Curious",
+        desc: "Always exploring new tools and tech—learning every day, coding every week.",
     },
 ];
 
@@ -114,15 +114,15 @@ const techStackImgs = [
 
 const techStackIcons = [
     {
-        name: "React Developer",
+        name: "Frontend Developer",
         modelPath: "/models/react_logo-transformed.glb",
         scale: 1,
         rotation: [0, 0, 0],
     },
     {
-        name: "Python Developer",
-        modelPath: "/models/python-transformed.glb",
-        scale: 0.8,
+        name: "Java DSA",
+        modelPath: "/models/java-transformed.glb",
+        scale: 1.3,
         rotation: [0, 0, 0],
     },
     {
@@ -132,13 +132,13 @@ const techStackIcons = [
         rotation: [0, -Math.PI / 2, 0],
     },
     {
-        name: "Interactive Developer",
-        modelPath: "/models/three.js-transformed.glb",
-        scale: 0.05,
+        name: "Python Developer",
+        modelPath: "/models/python-transformed.glb",
+        scale: 0.8,
         rotation: [0, 0, 0],
     },
     {
-        name: "Project Manager",
+        name: "Version Control",
         modelPath: "/models/git-svg-transformed.glb",
         scale: 0.05,
         rotation: [0, -Math.PI / 4, 0],
@@ -147,39 +147,42 @@ const techStackIcons = [
 
 const expCards = [
     {
-        review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+        review: "Actively building a strong foundation in Java and DSA by consistently solving problems on LeetCode. Each challenge helps sharpen my logic, improve speed, and push me one step closer to becoming a more efficient problem solver.",
         imgPath: "/images/exp1.png",
         logoPath: "/images/logo1.png",
-        title: "Frontend Developer",
-        date: "January 2023 - Present",
+        title: " DSA Problem Solver – LeetCode Practice",
+        date: "May 2024 - Present",
         responsibilities: [
-            "Developed and maintained user-facing features for the Hostinger website.",
-            "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-            "Optimized web applications for maximum speed and scalability.",
+            "Solved 120+ LeetCode problems in Java, focusing on algorithms and data structures.",
+            "Continuously improving problem-solving skills and efficiency through regular practice.",
+            "Currently deepening understanding of Java DSA since May 2024, applying it to solve increasingly complex problems.",
+            "Actively participate in contests to enhance problem-solving speed and logic.",
         ],
     },
     {
-        review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+        review: "Exploring the MERN stack through real-world projects to deepen my understanding of full-stack development. Every project helps me write cleaner code, design better UIs, and build more complete, scalable applications.",
         imgPath: "/images/exp2.png",
         logoPath: "/images/logo2.png",
-        title: "Full Stack Developer",
-        date: "June 2020 - December 2023",
+        title: "Full Stack Developer – Personal Projects",
+        date: "June 2023 - Present",
         responsibilities: [
-            "Led the development of Docker's web applications, focusing on scalability.",
-            "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-            "Contributed to open-source projects that were used with the Docker ecosystem.",
+            "Built and deployed full-stack web applications using the MERN stack (MongoDB, Express, React, Node.js).",
+            "Developed features like user authentication, CRUD operations, and admin dashboards.",
+            "Designed responsive UI with Tailwind CSS and ensured smooth user experience.",
+            "Deployed projects using Vercel and MongoDB Atlas for production-ready applications.",
         ],
     },
     {
-        review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+        review: "Built my personal portfolio as a creative playground to apply my web dev skills — and experimented with 3D elements and animations for the first time, pushing myself beyond traditional UI design.",
         imgPath: "/images/exp3.png",
         logoPath: "/images/logo3.png",
-        title: "React Native Developer",
-        date: "March 2019 - May 2020",
+        title: "Portfolio Developer – Deepansh Agarwal",
+        date: "April 2025",
         responsibilities: [
-            "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-            "Improved app performance and user experience through code optimization and testing.",
-            "Coordinated with the product team to implement features based on feedback.",
+            "Developed a professional portfolio website using React and deployed on Vercel.",
+            "Integrated 3D elements with Three.js and smooth animations using GSAP.",
+            "Designed with Tailwind CSS for a responsive, user-friendly experience.",
+            "Focused on clean UI/UX for seamless navigation.",
         ],
     },
 ];
