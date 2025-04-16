@@ -243,20 +243,19 @@ const testimonials = [
 
 const socialImgs = [
     {
-        name: "insta",
-        imgPath: "/images/insta.png",
+        name: "github",
+        imgPath: "/images/github.png",
+        link: "https://github.com/DeepanshAgarwal",
     },
     {
-        name: "fb",
-        imgPath: "/images/fb.png",
-    },
-    {
-        name: "x",
-        imgPath: "/images/x.png",
+        name: "leetcode",
+        imgPath: "/images/leetcode.png",
+        link: "https://leetcode.com/u/Deepansh_Agarwal/",
     },
     {
         name: "linkedin",
         imgPath: "/images/linkedin.png",
+        link: "https://www.linkedin.com/in/deepansh-agarwal/",
     },
 ];
 
