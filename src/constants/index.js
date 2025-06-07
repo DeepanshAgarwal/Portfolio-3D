@@ -30,9 +30,9 @@ const words = [
 
 const counterItems = [
     { value: 3, suffix: "+", label: "Years of Coding & Learning" },
-    { value: 12, suffix: "+", label: "Projects Built" },
-    { value: 150, suffix: "+", label: "LeetCode Problems Solved" },
-    { value: 10, suffix: "+", label: "Technologies Used Across Projects" },
+    { value: 15, suffix: "+", label: "Projects Built" },
+    { value: 170, suffix: "+", label: "LeetCode Problems Solved" },
+    { value: 15, suffix: "+", label: "Technologies Used Across Projects" },
 ];
 
 const logoIconsList = [
@@ -153,7 +153,7 @@ const expCards = [
         title: " DSA Problem Solver – LeetCode Practice",
         date: "May 2024 - Present",
         responsibilities: [
-            "Solved 120+ LeetCode problems in Java, focusing on algorithms and data structures.",
+            "Solved 170+ LeetCode problems in Java, focusing on algorithms and data structures.",
             "Continuously improving problem-solving skills and efficiency through regular practice.",
             "Currently deepening understanding of Java DSA since May 2024, applying it to solve increasingly complex problems.",
             "Actively participate in contests to enhance problem-solving speed and logic.",
